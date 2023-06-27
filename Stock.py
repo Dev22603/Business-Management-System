@@ -22,7 +22,7 @@ class Stock:
             stock_dict = list(reader)
             for i in stock_dict:
                 Stock(
-                    Stock_id=i['Customer_id'],
+                    Stock_id=i['Stock_id'],
                     Stock_Name=i['Stock_Name'],
                     Price=i['Price'],
                     Quantity_left=i['Quantity_left']
