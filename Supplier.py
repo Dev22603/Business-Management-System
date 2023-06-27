@@ -22,7 +22,7 @@ class Supplier:
                     Full_Name=i['Full_Name'],
                     Enterprise_Name=i['Enterprise_Name'],
                     Address=i['Address'],
-                    PhoneNo=i['PhoneNo'],
+                    PhoneNo=i['PhoneNo']
                     # Supplier_id=i.get('Supplier_id'),
                     # Full_Name=i.get('Full_Name'),
                     # Enterprise_Name=i.get('Enterprise_Name'),

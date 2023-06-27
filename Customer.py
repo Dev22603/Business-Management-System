@@ -29,7 +29,7 @@ class Customer:
                     Full_Name=i['Full_Name'],
                     Enterprise_Name=i['Enterprise_Name'],
                     Address=i['Address'],
-                    PhoneNo=i['PhoneNo'],
+                    PhoneNo=i['PhoneNo']
                 )
 
     def __repr__(self) -> str:
